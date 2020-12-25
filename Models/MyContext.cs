@@ -10,8 +10,6 @@ namespace TEST.Models
     {
         public DbSet<Order.response> Orders { get; set; }
 
-        public DbSet<UserInfo> Users { get; set; }
-
         public MyContext(DbContextOptions<MyContext> options)
             : base(options)
         {
